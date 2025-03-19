@@ -1,0 +1,36 @@
+
+h1{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(71, 255, 135);
+}
+
+p{
+    color: black;
+    background-color: yellow;
+    font-size: small;
+    text-decoration: dotted;
+}
+b{
+    color: chartreuse;
+    font-size:100px;
+    background-color: cadetblue;
+}
+i{
+    color: blue;
+    font-size: 20px;
+    background-color: darkorange;
+}
+
+footer{
+    color: blueviolet;
+    font-size: x-large;
+    background-color: darkslategray;
+}
+header{
+    color: darkred;
+    font-size: 30px;
+    background-color: darkgoldenrod;
+    text-align: center;
+}
