@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contextual_selector</title>
+        <style>
+            body{
+                background-color: lightsalmon;
+                color: blue;
+            }
+
+            h1{
+                color: blue;
+            }
+            p{
+                color: green;
+            }
+            p1 i{
+                color: red;
+            }
+            #row1 td{
+                color: rgb(83, 42, 165);
+            }
+            tr td{
+                color: rgb(13, 133, 79);
+            }
+            
+            
+
+        </style>
+    </head>
+    <body>
+        <h1>Contextual Selector</h1>
+        <p1>happy learning <i>welcome</i></p1> 
+        <h2>About</h2>
+        <p2>the <i>contextual selector</i> is used to style the child element only with in the parent element</p2>
+
+        <table>
+            <!-- here tabel is the parent element and td is the child element -->
+            <caption>Table</caption>
+            <tr id="row1">
+                <td>One</td>
+                <td>two</td>
+                <td>three</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </table>
+    </body>
+</html>
