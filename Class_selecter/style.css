@@ -1,0 +1,16 @@
+.head{
+    color:brown;
+    font-size: 20px;
+}
+.main{
+    color:blue;
+    font-size: 20px;
+}
+.footer{
+    color:rgb(0, 255, 89);
+    font-size: 20px;
+}
+
+.head h1{
+    color:cyan;
+}
