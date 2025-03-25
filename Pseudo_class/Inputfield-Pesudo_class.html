@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Pseudo Classes</title>
+    <style>
+        intput[type="text"]:disabled {
+            background-color: #500c80;
+        }
+        input[type="text"]:enabled {
+            background-color: #ff0000;
+        }
+        input[type="text"]:read-only {
+            background-color: #00ff7b;
+        }
+        input[type="text"]:read-write {
+            background-color: #ff00ff;
+        }
+        input[type="text"]:required {
+            background-color: #c67813;
+        }
+        input[type="text"]:valid{
+            background-color: green;
+        }
+        input[type="text"]:invalid{
+            background-color: red;
+        }
+        input[type="checkbox"]:checked +label{
+            background-color: #9500ff;
+        }
+        input[type="checkbox"]:indeterminate +label{
+            background-color: #ff00ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Details Form</h1>
+    <form>
+        First name: <input type="text" value=""/><br /><br>
+        Last name: <input type="text" value=""/><br /><br>
+        Address: <input type="text" disabled /><br /><br>
+        <input type="checkbox" value="email" name="mail" id="mail">
+        <label for="mail">Notify by Email</label><br><br>
+        <input type="checkbox" value="phoneno" name="tel" id="tel">
+        <label for="tel">Notify by Phone</label><br><br>
+        <input type="submit"
+        value="click to fill more details">
+    </form>
+</body>
+</html>

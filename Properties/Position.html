@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Position Properties</title>
+    <style>
+        div{
+            border:1px black solid;
+            padding:10px;
+            width:300px;
+            height:200px;
+            margin:50px;
+            background-color:antiquewhite;
+        }
+
+        #staticpos{
+            position: static;
+            top:100px;
+            left:100px;/*in static position left and right will not work*/
+            right:100px;
+        }
+        #fixedpos{
+            position: fixed;/*this will be relative to the viewport or browser*/
+            top:100px;
+            left:100px;
+            right:100px;
+            bottom: 100px;
+        }
+        #relativepos{
+            position: relative;/*this will realted to its position and it moves w.r.t its position*/
+            top:100px;
+            left:100px;
+            right:100px;
+            bottom: 100px;
+        }
+        #absolutepos{
+            position: static;/*this will be relative to the parent element means it moves w.r.t parent of this element*/
+            top:100px;
+            left:100px;
+            right:100px;
+            bottom: 100px;
+        }
+        #absolutepos2{
+            position: absolute;/*this will be relative to the parent element means it moves w.r.t parent of this element*/
+            top:100px;
+            left:100px;
+            right:100px;
+            bottom: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="staticpos">
+        This div is statically positioned. The left, right, top and bottom values will have no effect.
+    </div>
+
+    <div id="fixedpos">
+        This div has a fixed position. This div is positioned relative to viewport or browser.
+        The viewport doesn’t change when the window is scrolled.
+    </div>
+
+    <div id="relativepos">
+        This div is positioned relatively.
+        The left, right, top and bottom values will be applied relative to the element itself.
+    </div>
+    <div id="absolutepos">
+        This div is parent relatively.
+        The left, right, top and bottom values will be applied relative to the parent of its .
+    </div>
+    <div id="absolutepos2">
+        This div is parent relatively.
+        The left, right, top and bottom values will be applied relative to the parent of its .
+    </div>
+</body>
+</html>

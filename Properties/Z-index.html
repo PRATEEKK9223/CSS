@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Z-index </title>
+        <style>
+            div{
+                border:2px black dotted;
+                background-color:burlywood;
+            }
+
+            #d1{
+                width: 100px;
+                height: 100px;
+                position:absolute;
+                background-color: red;
+                z-index: 3;
+            }
+            #d2{
+                position: absolute;
+                height: 200px;
+                width:300px;
+                background-color: blue;
+                z-index: 2;
+            }
+            #d3{
+                position: absolute;
+                height: 100px;
+                width:200px;
+                background-color: orange;
+                z-index: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Z-index</h1>
+        <p>Z-index is used with only positioning elements and it used to give the stack orderthe elements</p>
+        <p>stack order means : Which one has more index value that will come front and less value come back</p>
+        <div id="d1">
+            Box1
+        </div>
+        <div id="d2">
+            parent Div
+            <div id="d3">
+                child div
+            </div>
+
+        </div>
+    </body>
+</html>

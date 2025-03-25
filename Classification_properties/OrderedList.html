@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>List-type</title>
+        <style>
+            #ol1{
+                list-style-type:decimal;
+                list-style-position: inside;
+            }
+            #node{
+                list-style-type: lower-alpha;
+                list-style-position: inside;
+            }
+           #ol2{
+                list-style-type:upper-roman;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Training course</h1>
+        <h2>back-End</h2>
+        <ol id="ol1">
+            <li>C</li>
+            <li>Java</li>
+            <li>python</li>
+            <li>php</li>
+            <li>Node.js</li>
+            <ol id="node" >
+                <li>Express</li>
+                <li>hapi</li>
+                <li>koa</li>
+            </ol>
+        </ol>
+
+        <h2>Front-End</h2>
+        <ol id="ol2">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>React</li>
+        </ol>
+    </body>
+</html>

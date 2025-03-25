@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Absolute Example</title>
+    <style>
+        .container {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            border: 2px solid black;
+        }
+        .box1 {
+            background: red;
+            padding: 20px;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+        .box2 {
+            background: blue;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box1">Box 1 (Absolute)</div>
+        <div class="box2">Box 2 (Normal Flow)</div>
+        
+    </div>
+
+</body>
+</html>

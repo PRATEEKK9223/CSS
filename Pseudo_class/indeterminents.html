@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	input[type="checkbox"]:indeterminate + label
+	{
+		color:yellow;/* this change of color made by the javascript code */
+	}
+</style>
+</head>
+<body>
+	<form>
+		<input type="checkbox" name="emp" id="emp" indeterminate></input>
+		<label for="emp">Employee</label>
+		<ul>
+			<li><input type="checkbox" name="empsal" id="empsal"></input>
+			<label for="empsal">Employee Salary</label>
+			<li><input type="checkbox" name="empdes" id="empdes"></input>
+			<label for="empdes">Employee Designation</label> 
+		</ul>
+	</form>
+</body>
+</html>
